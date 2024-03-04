@@ -2,6 +2,7 @@
 
 WHAT THE HECK???!?!?!?!?
 
+https://undici.nodejs.org/#/docs/api/ProxyAgent?id=example-basic-proxy-request-with-global-agent-dispatcher
 
 ## Getting Started:
 
