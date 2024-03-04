@@ -1,0 +1,7 @@
+{
+  "name": "undici-scratch",
+  "packageManager": "yarn@3.3.1",
+  "dependencies": {
+    "undici": "^6.7.0"
+  }
+}
