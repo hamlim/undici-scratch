@@ -1,10 +1,12 @@
 // :3000 -> target
 // :42069 -> proxy
 
-import { setGlobalDispatcher, ProxyAgent, request as fetch } from 'undici'
+import { setGlobalDispatcher, ProxyAgent,  } from 'undici'
 
 const proxyAgent = new ProxyAgent('http://127.0.0.1:42069/');
-setGlobalDispatcher(proxyAgent)
+// setGlobalDispatcher(proxyAgent)
+
+global[Symbol.for('undici.globalDispatcher.1')] = proxyAgent
 
 let res = await fetch('http://127.0.0.1:3000/');
 
