@@ -2,6 +2,6 @@
   "name": "undici-scratch",
   "packageManager": "yarn@3.3.1",
   "dependencies": {
-    "undici": "^6.23.0"
+    "undici": "^6.24.0"
   }
 }
